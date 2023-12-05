@@ -411,15 +411,18 @@ article .icon {
 
 .project-img {
   border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  max-width: 90%;
+  max-height: 90%; 
 }
 
+.project-title-1 {
+  margin: 1rem;
+  color: #0A9321;
+}
 .project-title {
   margin: 1rem;
   color: black;
 }
-
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
