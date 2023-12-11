@@ -12,9 +12,13 @@
     }
   }
   
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 800px) {
     #desktop-nav {
       display: none;
+    }
+    .section__pic-container{
+      display: none;
+      margin: 0 auto 2rem;
     }
     #hamburger-nav {
       display: flex;
@@ -37,11 +41,11 @@
     section {
       margin: 0 5%;
     }
-    .section__pic-container {
+   /* .section__pic-container {
       width: 275px;
       height: 275px;
       margin: 0 auto 2rem;
-    }
+    } */
     .about-containers {
       margin-top: 0;
     }
